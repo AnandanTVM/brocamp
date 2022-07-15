@@ -1,5 +1,6 @@
 body *, body :after, body :before {
     box-sizing: inherit;
+    
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
@@ -22,7 +23,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     height: 75px;
     left: 0;
     line-height: 24px;
-   
+    float: left;
     position: fixed;
     right: 0;
     top: 0;
@@ -57,7 +58,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     align-items: center;
     padding:  0 20px 0 50px;
     height: 100%;
-    float: left;
+    
     
 }
 .nav_linls_right
@@ -91,4 +92,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     display: inline-block;
     font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
     font-size: 17px;
+}
+.content_image {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(image/Prime-Video---1440-x-675-New._CB633786824_.jpg);
+    width: 102%;
+    height: 505px;
+    margin: -343px 45px 35px -9px;
+    
+}
+.con_az
+{
+    background-repeat: no-repeat;
+        background-image: linear-gradient(to right, #000 40%, transparent 58%), url(/image/MLP._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    width: 132%;
+    height: 802px;
+    margin: 68px -13px -10px -200px;
+}
+.cov_img1
+{
+    margin-left: -9pt;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(image/MLP._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    margin-top: 67px;
+    padding-left: 37%;
+    height: 200 px;
+
 }
