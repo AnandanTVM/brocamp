@@ -1,4 +1,5 @@
 body *, body :after, body :before {
+    margin: 0;
     box-sizing: inherit;
     
 }
@@ -49,6 +50,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     align-items: center;
     display: flex;
     width: 30%;
+    margin-top: 20px;
     list-style: none;
     float: left;
 }
@@ -108,12 +110,80 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     height: 802px;
     margin: 68px -13px -10px -200px;
 }
-.cov_img1
+.az_cont
 {
-    margin-left: -9pt;
-    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(image/MLP._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
-    margin-top: 67px;
-    padding-left: 37%;
-    height: 200 px;
+     color: #fff;    
+     text-rendering: optimizeLegibility;    
+     font-weight: 50;
+     font-size: 48px;
+     margin: 0px 0 0 7%;
+     padding: 120px;
+}
+p.az_cont
+{
+    color: #fff; 
+    text-rendering: optimizeLegibility;    
+    font-weight: 50;
+    font-size: 25px;
+    margin: -106px 15px 11px 14%;
+    padding: 0 96px 0 0;
+}
+.az_cont_button
+{
+    color:aliceblue;
+    
+   
+    border: none;
+    border-radius: 3px;
+    background-color:  #0f79af;
+    text-align: center;
+    margin: 0px 0 0px 257px;
+    padding: 15px 58px 19px 25px;
 
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+    font-size: 17px;
+}
+.az_cont_psmall
+{
+    color: #fff;
+    margin:9px 0 0 280px;
+    font-size:14px; 
+}
+.az_cont2
+{
+    color: #fff;    
+    text-rendering: optimizeLegibility;    
+    font-weight: 50;
+    font-size: 44px;
+    margin: 0px 0 0 -5px;
+    padding: 59px;
+}
+.az_cont2_p
+{
+    color: #fff; 
+    text-rendering: optimizeLegibility;    
+    font-weight: 50;
+    font-size: 22px;
+    margin: -39px 13px 1px 4%;
+    padding: 0 96px 0 0;
+}
+.az_cont2_button
+{
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    background-color: #0f79af;
+    text-align: center;
+    align-items: center;
+    margin: 46px 0 0px 57px;
+   
+    padding:  22px 109px 18px 123px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+    font-size: 17px;
 }
