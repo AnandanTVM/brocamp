@@ -1,23 +1,11 @@
-*{
+*
+{
     margin: 0;
     padding:0; 
     box-sizing: border-box;
-    
-}
-
-body{
-    
-   overflow-x: hidden;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-    display: block;
-}
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     font-family: "Amazon Arabic Ember",Arial, Helvetica, sans-serif;
 }
+
 .aznav {
     text-size-adjust: 100%;   
     background-color: #1b2530 ;
@@ -45,10 +33,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     float: left;
     
 }
-.aznav_left
-{
- 
-}
+
 .nav_links
 {
     justify-content: space-between;
@@ -87,8 +72,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 .button
 {
     color:aliceblue;
-    
-   
     border: none;
     border-radius: 3px;
     background-color:  #0f79af;
